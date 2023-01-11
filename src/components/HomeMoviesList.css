@@ -1,0 +1,31 @@
+.home__movies-list-section {
+    height: 95vh;
+    cursor: pointer;
+    overflow: scroll;
+    background-color: #070707;
+    /* margin: 40px; */
+    padding: 40px 0 40px 60px;
+}
+
+.section__title {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 0;
+    top: 20px;
+    left: 0px;
+    position: sticky;
+}
+
+.alienList {
+    
+    display: flex;
+    
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.alienList::-webkit-scrollbar {
+    display: none;
+}
